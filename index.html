@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assect/css/main.css">
+    <link rel="stylesheet" href="./assect/css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assect/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assect/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="gird">
+                <div class="header">
+                    <div class="header-search">
+                        <input type="text" placeholder="Got something new here" class="header-search-input">
+                        <i class="ti-search header-search-icon"></i>
+                    </div>
+                
+                </div>
+                <div class="containerr-main">
+                    <div class="container-player">
+                        
+                        <h2 class="container-content">Listening</h2>
+                        <div class="container-playmusic">
+                            <div class="container-playmusic-img">
+                                <div class="loader">
+                                    <span class="stroke"></span>
+                                    <span class="stroke"></span>
+                                    <span class="stroke"></span>
+                                    <span class="stroke"></span>
+                                    <span class="stroke"></span>
+                                    <span class="stroke"></span>
+                                    <span class="stroke"></span>
+                                </div>
+                            </div>
+                            <div class="container-playmusic-info">
+                                <h4 class="playmusic-info-name">So far away</h4>
+                                <span class="playmusic-info-singer">Martin Garrix David Guetta</span>
+                                <div id="timeline">
+                                    <span id="current-time">00:00</span>
+                                    <div class="slider" data-direction="horizontal">
+                                        <div class= "slider-time">
+                                            <div class="progress">
+                                                <div class="pin" id="progress-pin" data-method="rewind">
+                                                    
+                                                </div>
+                                                <div class="sub-pin"></div>
+                                            </div>
+                                        </div>
+                                        <div class="control">
+                                            <div class="control-btn">
+
+                                                <button class="control-btn-icon skip control-btn-icon-re">
+                                                    <i class="control-btn-icon-skip ti-control-skip-backward"></i>
+                                                </button>
+
+                                                <button class="control-btn-icon play">
+                                                    <i class="control-btn-icon-play ti-control-play"></i>
+                                                    <i class="control-btn-icon-pause ti-control-pause"></i>
+                                                </button>
+
+                                                <button class="control-btn-icon skip control-btn-icon-next">
+                                                     <i class="control-btn-icon-skip ti-control-skip-forward"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <audio id="audio" src=""></audio>
+                                    </div>
+                                    <span id="total-time">00:00</span>
+                                    <div class="sub-control">
+                                        <i class="ti-reload sub-control-reload"></i>
+        
+                                        <i class="ti-control-shuffle sub-control-random"></i>
+                                    </div>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                        <div class="listened">
+                            <h2 class="listened-title">Recently</h2>
+                            <ul class="listened-list">
+                                <li class="listened-list-item"> 
+                                    <div class="listened-list-item-image">
+                                        
+                                    </div>
+        
+                                    <div class="playlist-item-info">
+                                        <h4 class="playlist-item-info-name">
+                                            Love is Gone
+                                        </h4>
+                                        <span class="playlist-item-info-singer">
+                                            Talor Swift
+                                        </span>
+                                    </div>
+        
+                                </li>
+                                <li class="listened-list-item"> 
+                                    <div class="listened-list-item-image">
+        
+                                    </div>
+        
+                                    <div class="playlist-item-info">
+                                        <h4 class="playlist-item-info-name">
+                                            Love is Gone
+                                        </h4>
+                                        <span class="playlist-item-info-singer">
+                                            Talor Swift
+                                        </span>
+                                    </div>
+        
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+  
+                </div>
+            </div>
+            <div class="container-playlist">
+                <div class="container-playlis-trending">
+                    <h3 class="trending-content">Coming next</h3>
+                    <div class="playlist-trending">
+                        <ul class="playlist-trending-list conming-next">
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-playlist">
+                <div class="container-playlis-trending">
+                    <h3 class="trending-content">For you</h3>
+                    <div class="playlist-trending">
+                        <ul class="playlist-trending-list for-you">
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-playlist">
+                <div class="container-playlis-trending">
+                    <h3 class="trending-content">Trending</h3>
+                    <div class="playlist-trending">
+                        <ul class="playlist-trending-list trending"> 
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+            
+
+    </div>
+    <div class="main-menu">
+        <h1 class="main-menu-logo">Musiz</h1>
+        <ul class="main-menu-list">
+            <div class="main-menu-list-nav">
+                <li class="main-menu-item active" >
+                    <a href="" class="main-menu-item-link">
+                        <i class="fas fa-home main-menu-item--icon"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">
+                        <i class="fas fa-podcast main-menu-item--icon"></i>
+                        <span>Pobcast</span>
+                    </a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">
+                        <i class="far fa-heart main-menu-item--icon"></i>
+                        <span>Favourite</span>
+                    </a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">
+                        <i class="fas fa-list-ol main-menu-item--icon"></i>
+                        <span>Playlist</span>
+                    </a>
+                </li>
+
+            </div>
+
+            <div class="main-menu-list-setting">
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">
+                        <i class="fas fa-cog main-menu-item--icon"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">
+                        <i class="far fa-question-circle main-menu-item--icon"></i>
+                        <span>Help</span>
+                    </a>
+                </li>
+            </div>
+
+            <div class="main-menu-list-accout">
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link accout-item">
+                        <i class="far fa-user main-menu-item--icon"></i>
+                        <span>Sign in</span>
+                    </a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link accout-item">
+                        <i class="fas fa-user-plus main-menu-item--icon"></i>
+                        <span>Sign up</span>
+                    </a>
+                </li>
+            </div>
+        </ul>
+       
+
+    </div> 
+    <script src="./assect/JS/animation.js"></script>
+</body>
+</html>

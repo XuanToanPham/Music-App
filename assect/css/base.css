@@ -1,0 +1,49 @@
+:root{
+    --primary-color: #D25B86;
+    --white-color : #fff;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    flex-wrap: wrap;
+}
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: black;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgba(161, 161, 161, 0.3);
+    border-radius: 10px;
+}
